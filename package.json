@@ -1,4 +1,6 @@
 {
+  "main": "index.js",
+
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "express": "^4.16.4",
@@ -6,5 +8,10 @@
     "knex": "^0.16.5",
     "nodemon": "^1.19.0",
     "sqlite3": "^4.0.6"
+  },
+
+  "scripts": {
+    "server": "nodemon index.js"
   }
+
 }
